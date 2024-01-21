@@ -39,6 +39,7 @@
 
   .linear{
     background: linear-gradient(-90deg,#F00, #FF8938 100%) ;
+    color:#fff;
   }
   .linear-text{
     color:linear-gradient(-90deg,#F00, #FF8938 100%)
@@ -48,7 +49,7 @@
 </head>
 
 <!-- body part -->
-< class="manrope">
+<body class="manrope">
   <!-- container -->
   <div class="container mx-auto">
     <!-- Banner section -->
@@ -199,7 +200,7 @@
               <div class="absolute -top-6 -left-6 border-4 border-white rounded-full bg-white">
                 <img src="images/client.png" alt="">
               </div>
-              <div>
+              <div class="text-black">
                 <p class="mb-5">
                   We are providing the best and suitable home insurance services for the people who are interested to treatment
                 </p>
@@ -219,7 +220,7 @@
               <div class="absolute -top-6 -left-6 border-4 border-white rounded-full bg-white">
                 <img src="images/client.png" alt="">
               </div>
-              <div>
+              <div class="text-black">
                 <p class="mb-5">
                   We are providing the best and suitable home insurance services for the people who are interested to treatment
                 </p>
@@ -239,7 +240,7 @@
               <div class="absolute -top-6 -left-6 border-4 border-white rounded-full bg-white">
                 <img src="images/client.png" alt="">
               </div>
-              <div>
+              <div class="text-black">
                 <p class="mb-5">
                   We are providing the best and suitable home insurance services for the people who are interested to treatment
                 </p>
@@ -257,11 +258,117 @@
         </div>
        
       </section>
-      </main>
-    </div>
-  
-  <footer>
 
+      <!-- News & Events -->
+      <section class="lg:my-24 my-10">
+        <div class="space-y-5">
+          <h2 class="text-center font-extrabold text-3xl lg:text-5xl">
+            News & Events
+          </h2>
+          <p class="text-center max-w-[900px] mx-auto">
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.  
+          </p>
+        </div>
+
+        <!-- News and events card -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
+
+          <!-- 1st card -->
+          <div class="card card-compact bg-base-100 border-2 border-gray-200 p-5">
+            <img src="images/news-1.png" alt="" />
+            <div class="card-body">
+              <h3>21/01/24</h3>
+              <h2 class="card-title">Collecting 8 points for discount</h2>
+              <p>There are many variations of passages of Lorem Ipsum available.</p>
+              <div class="card-actions justify-end">
+              </div>
+              <div class="flex justify-start font-bold">
+                <button class=" bg-white">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd card -->
+          <div class="card card-compact bg-base-100 border-2 border-gray-200 p-5">
+            <img src="images/news-2.png" alt="Shoes" />
+            <div class="card-body">
+              <h3>21/01/24</h3>
+              <h2 class="card-title">Collecting 8 points for discount</h2>
+              <p>There are many variations of passages of Lorem Ipsum available.</p>
+              <div class="card-actions justify-end">
+              </div>
+              <div class="flex justify-start font-bold">
+                <button class=" bg-white">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3rd card -->
+          <div class="card card-compact bg-base-100 border-2 border-gray-200 p-5">
+            <img src="images/news-3.png" alt="Shoes" />
+            <div class="card-body">
+              <h3>21/01/24</h3>
+              <h2 class="card-title">Collecting 8 points for discount</h2>
+              <p>There are many variations of passages of Lorem Ipsum available.</p>
+              <div class="card-actions justify-end">
+              </div>
+              <div class="flex justify-start font-bold">
+                <button class=" bg-white">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  
+  <footer class="p-10 bg-gradient-to-r from-red-50 to-orange-50 text-base-content lg:py-24">
+    <div class="container mx-auto flex flex-col lg:flex-row gap-10 lg:justify-between items-center mb-5">
+      <div>
+        <img src="images/cup.png" alt="">
+      </div>
+      <div class="flex gap-10 items-center">
+        <p class="text-lg text-gray-400 font-semibold">Ready to get started?</p>
+        <button class="btn linear">Get Started</button>
+      </div>
+    </div>
+
+    <!-- a tag section -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-center md:text-left md:justify-between container mx-auto ">
+      <nav class="flex flex-col">
+        <header class="text-xl font-extrabold">Services</header> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      <nav class="flex flex-col">
+        <header class="text-xl font-extrabold">Company</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      <nav class="flex flex-col">
+        <header class="text-xl font-extrabold">Legal</header> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav> 
+      <form class="flex flex-col">
+        <header class="text-2xl font-extrabold mb-4">Subscribe to our <br> newsletter</header> 
+        <fieldset class="form-control w-80"> 
+          <div class="join">
+            <input type="text" placeholder="Email Address" class="bg-transparent border-b-2 border-black px-3" /> 
+            <button class="w-10 h-10 linear rounded-full">
+              <i class='bx bx-chevron-right text-2xl font-semibold'></i>
+            </button>
+          </div>
+        </fieldset>
+      </form>
+
+    </div>
+    <p class="text-center text-sm mt-24">© 2027 UIDesign.to - All rights reserved.</p>
   </footer>
 </body>
 </html>
