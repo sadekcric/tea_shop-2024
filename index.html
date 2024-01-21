@@ -17,6 +17,20 @@
 <!-- boxicons icon link -->
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+<!-- for custom color -->
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+          'linear-text':'linear-gradient(-90deg,#F00, #FF8938 100%)'
+        }
+      }
+    }
+  }
+</script>
+
 <!-- style tag -->
 <style>
   .manrope{
@@ -25,6 +39,9 @@
 
   .linear{
     background: linear-gradient(-90deg,#F00, #FF8938 100%) ;
+  }
+  .linear-text{
+    color:linear-gradient(-90deg,#F00, #FF8938 100%)
   }
 </style>
 
@@ -155,6 +172,95 @@
       </section>
 
       <!-- Meet Our Super Clients -->
+      <section class="linear flex flex-col lg:flex-row lg:justify-between relative p-10 lg:items-center gap-10 mt-10 md:mt-24">
+
+        <div class=" space-y-5 text-white lg:w-1/2">
+
+          <h2 class="text-3xl md:text-5xl font-extrabold">
+            Meet Our Super Clients
+          </h2>
+
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+          </p>
+
+          <button class="btn bg-white text-orange-400">
+             Show All
+          </button>
+
+        </div>
+
+        <!-- card section -->
+        <div class="md:relative space-y-6 md:space-y-20">
+
+          <!-- first card -->
+          <div class=" ">
+            <!-- review card 1 -->
+            <div class="mx-auto relative bg-white lg:-left-28 p-8 max-w-[430px] rounded-xl z-10 opacity-50 ">
+              
+              <div class="absolute -top-6 -left-6">
+                <img src="images/client.png" alt="">
+              </div>
+              <div>
+                <p class="mb-5">
+                  We are providing the best and suitable home insurance services for the people who are interested to treatment
+                </p>
+
+                <h5 class="font-extrabold">Ilham Yuda</h5>
+                <h6 class="text-sm font-semibold">Businessman</h6>
+              </div>
+              <div>
+  
+              </div>
+            </div>
+          </div>
+
+           <!-- second card -->
+           <div class=" lg:absolute bottom-24 right-3  lg:top-14 lg:-left-20 z-20">
+            <!-- review card 2 -->
+            <div class="mx-auto relative bg-white lg:-left-28 p-8 max-w-[430px] rounded-xl">
+              
+              <div class="absolute -top-6 -left-6">
+                <img src="images/client.png" alt="">
+              </div>
+              <div>
+                <p class="mb-5">
+                  We are providing the best and suitable home insurance services for the people who are interested to treatment
+                </p>
+
+                <h5 class="font-extrabold">Ilham Yuda</h5>
+                <h6 class="text-sm font-semibold">Businessman</h6>
+              </div>
+              <div>
+  
+              </div>
+            </div>
+          </div>
+
+           <!-- third card -->
+           <div class=" ">
+            <!-- review card 3 -->
+            <div class="mx-auto relative bg-white lg:-left-28 p-8 max-w-[430px] rounded-xl opacity-50 z-10">
+              
+              <div class="absolute -top-6 -left-6">
+                <img src="images/client.png" alt="">
+              </div>
+              <div>
+                <p class="mb-5">
+                  We are providing the best and suitable home insurance services for the people who are interested to treatment
+                </p>
+
+                <h5 class="font-extrabold">Ilham Yuda</h5>
+                <h6 class="text-sm font-semibold">Businessman</h6>
+              </div>
+              <div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </section>
     </main>
   </div>
 
